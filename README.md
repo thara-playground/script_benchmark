@@ -16,15 +16,15 @@ Environment: Apple Silicon (Darwin 25.2.0)
 
 | Runtime | Version |
 |---------|---------|
-| Ruby    | 2.6.10p210 |
-| Python  | 3.13.3 |
+| Ruby    | 4.0.1 |
+| Python  | 3.14.3 |
 | Bun     | 1.3.10 |
 
 | Benchmark | Ruby | Python | Bun |
 |-----------|------|--------|-----|
-| Fibonacci | 9.785s | 12.985s | **0.470s** |
-| File I/O  | 0.051s | 0.049s | **0.044s** |
-| JSON      | 1.263s | 0.637s | **0.168s** |
+| Fibonacci | 5.196s | 11.087s | **0.471s** |
+| File I/O  | 0.065s | 0.070s | **0.045s** |
+| JSON      | 0.264s | 0.712s | **0.169s** |
 
 ## Usage
 
